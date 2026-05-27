@@ -1,0 +1,26 @@
+# 1. Python Virtual Environments
+venv/
+.venv/
+env/
+
+# 2. Python Cache and Compiled Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 3. Environment Variables & Secrets (CRITICAL FOR DEVSECOPS)
+.env
+.env.*
+*.env
+secrets.json
+
+# 4. IDE and Text Editor Settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+
+# 5. Operating System Clutter
+.DS_Store
+Thumbs.db
